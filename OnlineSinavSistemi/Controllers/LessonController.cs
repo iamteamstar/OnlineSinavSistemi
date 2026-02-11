@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnlineSinav.Business.Services;
 using OnlineSinav.Core.Entities;
+using OnlineSinavSistemi.DTOs;
 
 namespace OnlineSinavSistemi.Controllers
 {
@@ -15,9 +16,12 @@ namespace OnlineSinavSistemi.Controllers
 			_lessonService = lessonService;
 		}
 		[HttpPost]
-		public IActionResult LessonAdd([FromBody]Lesson lesson)
+		public IActionResult CreateLesson([FromBody] LessonCreateDto lessonDto)
 		{
-			bool result=_lessonService.AddLesson(lesson);
+			var newLesson=new Lesson();
+			newLesson.LessonName = lessonDto.LessonName;
+			newLesson.LessonTeacher=lessonDto.LessonTeacher;
+			bool result=_lessonService.AddLesson(newLesson);
 			if (!result)
 			{
 				return Ok("ders adı en az iki karakter olmalı");

@@ -1,15 +1,41 @@
 [
   {
+    "ContainingType": "OnlineSinavSistemi.Controllers.ExamController",
+    "Method": "CreateExam",
+    "RelativePath": "api/Exam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examDto",
+        "Type": "OnlineSinavSistemi.DTOs.ExamCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineSinavSistemi.Controllers.ExamController",
+    "Method": "GetExam",
+    "RelativePath": "api/Exam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "OnlineSinavSistemi.Controllers.LessonController",
-    "Method": "LessonAdd",
+    "Method": "CreateLesson",
     "RelativePath": "api/Lesson",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "lesson",
-        "Type": "OnlineSinav.Core.Entities.Lesson",
+        "Name": "lessonDto",
+        "Type": "OnlineSinavSistemi.DTOs.LessonCreateDto",
         "IsRequired": true
       }
     ],

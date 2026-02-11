@@ -255,3 +255,4 @@ C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full St
 C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinavSistemi\bin\Debug\net8.0\OnlineSinav.Business.dll
 C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinavSistemi\bin\Debug\net8.0\OnlineSinav.Business.pdb
 C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinavSistemi\obj\Debug\net8.0\OnlineSinavSistemi.sourcelink.json
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinavSistemi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll

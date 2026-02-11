@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "H72MpU9C4Vc=",
+  "dgSpecHash": "rRyk7mzAqms=",
   "success": true,
   "projectFilePath": "C:\\Users\\technopc\\OneDrive - Manisa Celal Bayar Üniversitesi\\Masaüstü\\Full Stack Web\\Backend\\Files\\OnlineSinavSistemi\\OnlineSinav.Core\\OnlineSinav.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\technopc\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
+    "C:\\Users\\technopc\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\8.0.0\\swashbuckle.aspnetcore.annotations.8.0.0.nupkg.sha512",
+    "C:\\Users\\technopc\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\8.0.0\\swashbuckle.aspnetcore.swagger.8.0.0.nupkg.sha512",
+    "C:\\Users\\technopc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\8.0.0\\swashbuckle.aspnetcore.swaggergen.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

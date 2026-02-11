@@ -15,6 +15,7 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepositor
 
 // 2. Service Kaydý
 builder.Services.AddScoped<LessonService>();
+builder.Services.AddScoped<ExamService>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace OnlineSinav.Core.Entities
@@ -13,7 +14,8 @@ namespace OnlineSinav.Core.Entities
 		public DateTime ExamDate { get; set; }
 		public int ExamTime { get; set; }
 		public int LessonID { get; set; }
-		public Lesson Lesson { get; set; }
+		[JsonIgnore]
+		public Lesson? Lesson { get; set; }
 		
 
 
