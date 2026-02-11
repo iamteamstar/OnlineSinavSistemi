@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "ContainingType": "OnlineSinavSistemi.Controllers.LessonController",
+    "Method": "LessonAdd",
+    "RelativePath": "api/Lesson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lesson",
+        "Type": "OnlineSinav.Core.Entities.Lesson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineSinavSistemi.Controllers.LessonController",
+    "Method": "GetLesson",
+    "RelativePath": "api/Lesson",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

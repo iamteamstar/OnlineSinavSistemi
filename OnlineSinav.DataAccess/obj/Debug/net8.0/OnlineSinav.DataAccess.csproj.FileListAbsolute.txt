@@ -13,3 +13,4 @@ C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full St
 C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.DataAccess\obj\Debug\net8.0\refint\OnlineSinav.DataAccess.dll
 C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.DataAccess\obj\Debug\net8.0\OnlineSinav.DataAccess.pdb
 C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.DataAccess\obj\Debug\net8.0\ref\OnlineSinav.DataAccess.dll
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.DataAccess\obj\Debug\net8.0\OnlineSinav.DataAccess.sourcelink.json

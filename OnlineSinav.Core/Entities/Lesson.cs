@@ -11,6 +11,6 @@ namespace OnlineSinav.Core.Entities
 		public int LessonID { get; set; }
 		public string LessonName { get; set; }
 		public string LessonTeacher { get; set; }
-		public List<Exam> Exam { get; set; }//bir dersin birden çok sınavı olabilir
+		public List<Exam>? Exam { get; set; }//bir dersin birden çok sınavı olabilir
 	}
 }

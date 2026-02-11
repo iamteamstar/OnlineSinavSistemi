@@ -13,7 +13,10 @@
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
-          "OnlineSinav.DataAccess": "1.0.0"
+          "OnlineSinav.Business": "1.0.0",
+          "OnlineSinav.DataAccess": "1.0.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "8.0.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "8.0.0"
         },
         "runtime": {
           "OnlineSinavSistemi.dll": {}
@@ -623,6 +626,14 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.OpenApi/1.6.23": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.6.23.0",
+            "fileVersion": "1.6.23.0"
+          }
+        }
+      },
       "Microsoft.SqlServer.Server/1.0.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
@@ -655,6 +666,36 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.1.1"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/8.0.0": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.23"
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.1197"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/8.0.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.1197"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.1197"
           }
         }
       },
@@ -903,6 +944,17 @@
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "OnlineSinav.Business/1.0.0": {
+        "dependencies": {
+          "OnlineSinav.Core": "1.0.0"
+        },
+        "runtime": {
+          "OnlineSinav.Business.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -1265,6 +1317,13 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
+    "Microsoft.OpenApi/1.6.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tZ1I0KXnn98CWuV8cpI247A17jaY+ILS9vvF7yhI0uPPEqF4P1d7BWL5Uwtel10w9NucllHB3nTkfYTAcHAh8g==",
+      "path": "microsoft.openapi/1.6.23",
+      "hashPath": "microsoft.openapi.1.6.23.nupkg.sha512"
+    },
     "Microsoft.SqlServer.Server/1.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1285,6 +1344,27 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+8Y4pVTWbnzotIk6d6rcwsHGpCchPDqqrvYkyGlI3go+pFaKM+4eX30iCyI0hvr0RMtObJCFhK6aDtlQFbEF1g==",
+      "path": "swashbuckle.aspnetcore.swagger/8.0.0",
+      "hashPath": "swashbuckle.aspnetcore.swagger.8.0.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-skCeIQ93yMcUm1PQby5qitFM6KLIlLMj4/i8JHy86x2OFzxTNaaas2kUg6rNV3JvucFvYCNyImg7NMtZHErSzQ==",
+      "path": "swashbuckle.aspnetcore.swaggergen/8.0.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.8.0.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IMqmgclFiZL2QIfopOmWYofZzckrl+SdMt1h4mKC0jc94F+uzt3IHA3YFC0CGlwBqTTSnxHqNUKomNTeAhZbYA==",
+      "path": "swashbuckle.aspnetcore.swaggerui/8.0.0",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.8.0.0.nupkg.sha512"
     },
     "System.CodeDom/4.4.0": {
       "type": "package",
@@ -1516,6 +1596,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "OnlineSinav.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "OnlineSinav.Core/1.0.0": {
       "type": "project",
