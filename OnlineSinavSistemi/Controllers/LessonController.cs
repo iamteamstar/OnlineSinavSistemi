@@ -34,6 +34,34 @@ namespace OnlineSinavSistemi.Controllers
 			var lessons=_lessonService.GetAllLessons();
 			return Ok(lessons);
 			}
-		
+		[HttpPut]
+		public IActionResult UpdateLesson(LessonUpdateDto lessonDto)
+		{
+			var putLesson=new Lesson
+			{
+				LessonID = lessonDto.LessonID,
+				LessonName = lessonDto.LessonName,
+				LessonTeacher= lessonDto.LessonTeacher
+
+			};
+			bool result=_lessonService.UpdateLesson(putLesson);
+			if (!result)
+			{
+				return BadRequest("kullanıcı tabanlı hata");
+
+			}
+			return Ok("basariyla guncellendi");
+
+		}
+		[HttpDelete("{id}")]
+		public IActionResult DeleteLesson(int id)
+		{
+			var result = _lessonService.DeleteLesson(id);
+			if (!result)
+			{
+				return BadRequest("silme basarisiz");
+			}
+			return Ok("silme basariyla gerceklesti");
+		}
 	}
 }

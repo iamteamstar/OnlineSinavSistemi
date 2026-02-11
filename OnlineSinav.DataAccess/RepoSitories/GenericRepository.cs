@@ -45,6 +45,9 @@ Bunu yapmak için sınıfın Constructor (Yapıcı Metot) kısmını kullanırı
 			// Veritabanındaki tüm kayıtları listeye çevirip getirir
 			return _dbSet.ToList();
 		}
-
+		public T GetById (int id)
+		{
+			return _context.Set<T>().Find(id);
+		}
 	}
 }

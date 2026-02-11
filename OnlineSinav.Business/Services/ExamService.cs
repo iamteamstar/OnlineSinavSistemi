@@ -30,6 +30,5 @@ namespace OnlineSinav.Business.Services
 		{
 			return _examRepository.GetList();
 		}
-
 	}
 }

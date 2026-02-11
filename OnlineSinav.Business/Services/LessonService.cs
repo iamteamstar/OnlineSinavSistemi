@@ -29,5 +29,25 @@ namespace OnlineSinav.Business.Services
 		{
 			return _lessonRepository.GetList();
 		}
+		public bool UpdateLesson(Lesson lesson)
+		{
+			if(string.IsNullOrEmpty(lesson.LessonName)||lesson.LessonID<0||lesson.LessonName.Length<2||string.IsNullOrEmpty(lesson.LessonTeacher))
+				{
+				return false;
+					}
+			_lessonRepository.Update(lesson);
+			return true;
+		}
+		public bool DeleteLesson(int id)
+		{
+			var lessonfind = _lessonRepository.GetById(id);
+			if(lessonfind==null)
+			{
+				return false;
+			}
+			_lessonRepository.Delete(lessonfind);
+			return true;
+
+		}
 	}
 }

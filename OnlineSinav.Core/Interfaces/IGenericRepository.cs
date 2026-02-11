@@ -18,5 +18,7 @@ Bunu yapmak için sınıfın Constructor (Yapıcı Metot) kısmını kullanırı
 		void Update(T entity);
 		void Delete(T entity);
 	    List<T> GetList();
+		T GetById(int id);
+
 	}
 }
