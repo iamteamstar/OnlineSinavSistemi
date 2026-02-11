@@ -1,0 +1,11 @@
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\bin\Debug\net8.0\OnlineSinav.Core.deps.json
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\bin\Debug\net8.0\OnlineSinav.Core.dll
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\bin\Debug\net8.0\OnlineSinav.Core.pdb
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\obj\Debug\net8.0\OnlineSinav.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\obj\Debug\net8.0\OnlineSinav.Core.AssemblyInfoInputs.cache
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\obj\Debug\net8.0\OnlineSinav.Core.AssemblyInfo.cs
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\obj\Debug\net8.0\OnlineSinav.Core.csproj.CoreCompileInputs.cache
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\obj\Debug\net8.0\OnlineSinav.Core.dll
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\obj\Debug\net8.0\refint\OnlineSinav.Core.dll
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\obj\Debug\net8.0\OnlineSinav.Core.pdb
+C:\Users\technopc\OneDrive - Manisa Celal Bayar Üniversitesi\Masaüstü\Full Stack Web\Backend\Files\OnlineSinavSistemi\OnlineSinav.Core\obj\Debug\net8.0\ref\OnlineSinav.Core.dll
