@@ -30,5 +30,14 @@ namespace OnlineSinav.Business.Services
 		{
 			return _examRepository.GetList();
 		}
+		public bool UpdateExam(Exam exam)
+		{
+			if (string.IsNullOrEmpty(exam.ExamName)||exam.ExamID<2||exam.ExamTime<15||exam.ExamDate<DateTime.Now)
+			{
+				return false;
+			}
+			_examRepository.Update(exam);
+			return true;
+		}
 	}
 }

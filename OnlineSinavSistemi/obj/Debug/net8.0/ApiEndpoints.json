@@ -26,6 +26,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "OnlineSinavSistemi.Controllers.ExamController",
+    "Method": "UpdateExam",
+    "RelativePath": "api/Exam",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examUpdateDto",
+        "Type": "OnlineSinavSistemi.DTOs.ExamUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "OnlineSinavSistemi.Controllers.LessonController",
     "Method": "CreateLesson",
     "RelativePath": "api/Lesson",

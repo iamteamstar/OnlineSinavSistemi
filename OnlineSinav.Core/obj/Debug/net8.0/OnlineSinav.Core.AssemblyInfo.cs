@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineSinav.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18af2559d85f7bab3e6865da779ef8b7cf714339")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adbb1b91f40a8f271e4391797ba3ddd51d60ae31")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineSinav.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineSinav.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

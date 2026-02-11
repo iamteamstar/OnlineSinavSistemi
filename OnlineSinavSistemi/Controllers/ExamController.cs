@@ -35,6 +35,25 @@ namespace OnlineSinavSistemi.Controllers
 			var exams = _examService.GetExamList();
 			return Ok(exams);
 		}
+		[HttpPut]
+		public IActionResult UpdateExam(ExamUpdateDto examUpdateDto)
+		{
+			var putExam = new Exam
+			{
+				ExamID= examUpdateDto.ExamID,
+				ExamName= examUpdateDto.ExamName,
+				ExamDate= examUpdateDto.ExamDate,
+				ExamTime= examUpdateDto.ExamTime,
+				LessonID= examUpdateDto.LessonID,
+			
+			};
+			var result=_examService.UpdateExam(putExam);
+			if (!result)
+			{ return BadRequest("guncelleme basarisiz"); }
+			return Ok("basariyla guncelleme yapildi");
+
+		}
+
 
 	}
 }
