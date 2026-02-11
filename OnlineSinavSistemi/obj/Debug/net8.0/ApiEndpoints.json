@@ -42,6 +42,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "OnlineSinavSistemi.Controllers.ExamController",
+    "Method": "DeleteExam",
+    "RelativePath": "api/Exam",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "OnlineSinavSistemi.Controllers.LessonController",
     "Method": "CreateLesson",
     "RelativePath": "api/Lesson",

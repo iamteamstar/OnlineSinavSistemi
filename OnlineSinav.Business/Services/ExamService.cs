@@ -39,5 +39,16 @@ namespace OnlineSinav.Business.Services
 			_examRepository.Update(exam);
 			return true;
 		}
+		public bool DeleteExam(int id)
+		{
+			var examFind=_examRepository.GetById(id);
+			if (examFind == null) 
+			{
+				return false;
+			}
+			_examRepository.Delete(examFind);
+			return true;
+		}
+
 	}
 }

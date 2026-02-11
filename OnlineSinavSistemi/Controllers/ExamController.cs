@@ -51,7 +51,16 @@ namespace OnlineSinavSistemi.Controllers
 			if (!result)
 			{ return BadRequest("guncelleme basarisiz"); }
 			return Ok("basariyla guncelleme yapildi");
-
+		}
+		[HttpDelete]
+		public IActionResult DeleteExam(int id)
+		{
+			var result=_examService.DeleteExam(id);
+			if (!result)
+			{
+				return BadRequest("id bulunamdı");
+			}
+			return Ok("basariyla silme islemi yapildi");
 		}
 
 
